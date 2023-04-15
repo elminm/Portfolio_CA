@@ -3,6 +3,7 @@
 }
 .header__section-navigation {
   position: sticky;
+  top: 0;
   height: var(--nav-height);
   background-color: var(--main-color);
   display: flex;
@@ -29,8 +30,11 @@
 .header__section-navigation-bar-list li a {
   color: var(--white);
   font-weight: 800;
+  transition: .3s all;
 }
-
+.header__section-navigation-bar-list li a:hover {
+  color:var(--bg-color)
+}
 .header__section-profile {
   height: calc(100% - var(--nav-height));
   background-color: var(--bg-color);
