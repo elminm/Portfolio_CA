@@ -1,6 +1,4 @@
-.header__section {
-  height: 100vh;
-}
+
 .header__section-navigation {
   position: sticky;
   top: 0;
@@ -42,6 +40,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 6rem 0;
 }
 .header__section-profile img {
   width: 240px;
