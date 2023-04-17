@@ -37,3 +37,22 @@
     height: 100%;
     object-fit: cover;
 }
+
+@media (max-width: 992px) {
+    .portfolio__section-header h2{
+        font-size: 2.5rem;
+    }
+    .portfolio__section-items-item {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .portfolio__section-header h2{
+        font-size: 2rem;
+    }
+    .portfolio__section-items-item {
+        width: 80%;
+        height: fit-content;
+    }
+  }

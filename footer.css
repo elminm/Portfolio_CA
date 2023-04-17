@@ -47,3 +47,40 @@ margin: auto;
     color: var(--bg-color);
     text-decoration: underline;
 }
+
+@media (max-width: 992px) {
+    .footer-item {
+        font-size: 16px;
+    }
+    .footer-item h2 {
+        font-size: 1.3rem;
+    }
+    .footer-item-social a {
+        width: 40px;
+        height: 40px;
+    }
+}
+@media (max-width: 768px) {
+    .footer-item {
+        font-size: 14px;
+    }
+    .footer-item h2 {
+        font-size: 1.1rem;
+    }
+    .footer-item-social a {
+        width: 30px;
+        height: 30px;
+    }
+  }
+@media (max-width: 600px) {
+    .footer-item {
+        font-size: 12px;
+    }
+    .footer-item h2 {
+        font-size: .8rem;
+    }
+    .footer-item-social a {
+        width: 20px;
+        height: 20px;
+    }
+  }
